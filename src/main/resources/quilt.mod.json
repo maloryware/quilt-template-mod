@@ -1,14 +1,14 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
+		"group": "${group}",
 		"id": "example_mod",
 		"version": "${version}",
 		"metadata": {
 			"name": "Mod Name",
 			"description": "A short description of your mod.",
 			"contributors": {
-				"Me!": "Owner"
+				"Your name here": "Owner"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
@@ -24,7 +24,7 @@
 		"depends": [
 			{
 				"id": "quilt_loader",
-				"versions": ">=0.16.0-"
+				"versions": ">0.27.0"
 			},
 			{
 				"id": "quilted_fabric_api",
